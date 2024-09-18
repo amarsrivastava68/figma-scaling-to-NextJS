@@ -10,8 +10,8 @@ import pinkbutton from "../../public/assets/pink-button.svg";
 import Image from "next/image";
 const Features = () => {
   return (
-    <div className="px-5 container lg:px-20 mx-auto">
-      <div className="px-5 container lg:px-20 mx-auto flex flex-col  gap-y-[56px] py-[56px] lg:py-[120px] lg:gap-y-[80px]">
+   
+      <div className=" px-5 container lg:px-15 mx-auto flex flex-col  gap-y-[56px] py-[56px] lg:py-[120px] lg:gap-y-[80px]">
         <div className="flex flex-col sm:flex-row-reverse gap-x-6 items-center justify-between sm:w-full ">
           <Image
             src={Feature1}
@@ -141,7 +141,7 @@ const Features = () => {
           </div>
         </div>
       </div>
-    </div>
+    
   );
 };
 
