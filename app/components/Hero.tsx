@@ -22,10 +22,10 @@ const Hero = () => {
           productivity and efficiency!
         </p>
         <div className="flex w-full pt-8 justify-center items-center gap-x-6  ">
-          <button className="bg-blue-600 py-4 px-8 text-white rounded-[4px] lg:w-fit w-1/2">
+          <button className="bg-blue-600 py-4 px-7 text-white rounded-[4px] lg:w-fit w-1/2">
             Try for free
           </button>
-          <button className=" py-4 px-8  flex items-center justify-center gap-x-2  lg:w-fit rounded-[4px]  w-1/2">
+          <button className=" py-4 px-7   flex items-center justify-center gap-x-2  lg:w-fit rounded-[4px]  w-1/2">
             View pricing
             <span>
               <Image src={BlueArrow} alt="blue-arrow" />
@@ -47,10 +47,10 @@ const Hero = () => {
           />
          
           <div className="flex w-full flex-col items-center lg:container lg:flex-row lg:justify-between lg:px-20 ">
-            <p className="text-white text-center lg:text-[18px] ">
+            <p className="text-white text-center lg:text-[18px]  ">
               Trusted by these companies
             </p>
-            <div className="grid grid-cols-3 lg:grid-cols-5  px-5 align-middle place-items-center justify-items-center">
+            <div className="grid grid-cols-3 pt-4 lg:pt-0 sm:grid-cols-5  px-5 align-middle place-items-center justify-items-center">
               <Image src={Google} alt="google"></Image>
               <Image src={Slack} alt="slack"></Image>
               <Image src={Trustpilot} alt="trustpilot"></Image>
