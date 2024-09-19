@@ -17,7 +17,7 @@ const Hero = () => {
           Start monitoring your website like a pro
         </h1>
         <p className="text-center pt-6 px-5 lg:text-[18px] lg:leading-7 text-[#36485C] ">
-          Get a bird's eye view with our customizable dashboard. Stay on top of
+          Get a birds eye view with our customizable dashboard. Stay on top of
           things! Revamp your work process with our game-changing feature. Boost
           productivity and efficiency!
         </p>

@@ -1,6 +1,5 @@
 import React from "react";
 import checkmark from '../../public/assets/check.svg'
-import whitemark from '../../public/assets/white.svg'
 import Image from "next/image";
 const Pricing = () => {
   return (
@@ -104,7 +103,7 @@ const Pricing = () => {
 
          </div>
                      <button className="mt-4 rounded-[4px] bg-white py-[14px] bottom-0 border-2 border-blue-500 font-medium text-blue-500">Contact Us
-                        
+
                      </button>
         </div>
       </div>

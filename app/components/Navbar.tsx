@@ -2,7 +2,6 @@ import React from "react";
 import logo from "../../public/assets/Logo.svg";
 import Image from "next/image";
 import User from "../../public/assets/User.svg";
-import Menu from "../../public/assets/Menu.svg";
 import DropdownMenuDemo from "./Hamburger";
 const NavLinks = [
   { name: "Features" },

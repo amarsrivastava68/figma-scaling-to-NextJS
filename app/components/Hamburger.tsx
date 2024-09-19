@@ -6,10 +6,7 @@ import {
 } from "@radix-ui/react-icons";
 
 const DropdownMenuDemo = () => {
-  const [bookmarksChecked, setBookmarksChecked] = React.useState(true);
-  const [urlsChecked, setUrlsChecked] = React.useState(false);
-  const [person, setPerson] = React.useState("pedro");
-
+ 
   return (
     <DropdownMenu.Root>
       <DropdownMenu.Trigger asChild>

@@ -26,7 +26,7 @@ const Features = () => {
             <Image src={Feature1} alt="feature 1 " className="pt-6  w-full rounded-lg sm:hidden" />
             <p className="py-6 lg:text-[18px]  text-black">
               Stay on top of things and revamp your work progress with our game
-              changing feature . Get a bird's eye view from our customizable
+              changing feature . Get a birds eye view from our customizable
               dashboard.
             </p>
             <ul className="flex flex-col gap-y-3">
@@ -72,7 +72,7 @@ const Features = () => {
             <Image src={Feature2} alt="feature 2 " className="pt-6  w-full rounded-lg sm:hidden"/>
             <p className="py-6 lg:text-[18px]  text-black">
               Stay on top of things and revamp your work progress with our game
-              changing feature . Get a bird's eye view from our customizable
+              changing feature . Get a birds eye view from our customizable
               dashboard.
             </p>
             <ul className="flex flex-col gap-y-3">
@@ -118,7 +118,7 @@ const Features = () => {
             <Image src={Feature3} alt="feature 3 " className="pt-6  w-full rounded-lg sm:hidden" />
             <p className="py-6 lg:text-[18px]  text-black">
               Stay on top of things and revamp your work progress with our game
-              changing feature . Get a bird's eye view from our customizable
+              changing feature . Get a birds eye view from our customizable
               dashboard.
             </p>
             <div className="flex w-full gap-x-6 pt-6">
