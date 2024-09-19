@@ -11,19 +11,19 @@ import Image from "next/image";
 const Features = () => {
   return (
    
-      <div className=" px-5 container lg:px-15 mx-auto flex flex-col  gap-y-[56px] py-[56px] lg:py-[120px] lg:gap-y-[80px]">
-        <div className="flex flex-col sm:flex-row-reverse gap-x-6 items-center justify-between sm:w-full ">
+<div className="container lg:px-15 mx-auto flex flex-col gap-y-[56px] py-[56px] lg:py-[120px] lg:gap-y-[80px] items-center">
+        <div className="flex flex-col sm:flex-row-reverse gap-x-6 items-center sm:w-full ">
           <Image
             src={Feature1}
             alt="feature 1 "
             className="hidden sm:block w-1/2"
           />
-          <div className="sm:w-1/2 lg:py-[56px] lg:pr-[56px]">
+          <div className="sm:w-1/2 items-center  justify-center lg:py-[56px] lg:pr-[56px]">
             <h3 className="font-medium  text-blue-500">Sales Monitoring</h3>
             <h1 className="pt-3 text-2xl font-medium text-black lg:text-[42px] lg:leading-[58px] ">
               Simplify your sales monitoring
             </h1>
-            <Image src={Feature1} alt="feature 1 " className="pt-6 sm:hidden" />
+            <Image src={Feature1} alt="feature 1 " className="pt-6  w-full rounded-lg sm:hidden" />
             <p className="py-6 lg:text-[18px]  text-black">
               Stay on top of things and revamp your work progress with our game
               changing feature . Get a bird's eye view from our customizable
@@ -69,7 +69,7 @@ const Features = () => {
             <h1 className="pt-3 text-2xl font-medium text-black lg:text-[42px] lg:leading-[58px] ">
               Simplify your sales monitoring
             </h1>
-            <Image src={Feature2} alt="feature 2 " className="pt-6 sm:hidden" />
+            <Image src={Feature2} alt="feature 2 " className="pt-6  w-full rounded-lg sm:hidden"/>
             <p className="py-6 lg:text-[18px]  text-black">
               Stay on top of things and revamp your work progress with our game
               changing feature . Get a bird's eye view from our customizable
@@ -108,14 +108,14 @@ const Features = () => {
           <Image
             src={Feature3}
             alt="feature 3 "
-            className="hidden sm:block w-1/2"
+            className="hidden rounded-lg sm:block w-1/2"
           />
           <div className="sm:w-1/2 lg:py-[56px] lg:pr-[56px]">
             <h3 className="font-medium  text-pink-500">Growth Monitoring</h3>
             <h1 className="pt-3 text-2xl font-medium text-black lg:text-[42px] lg:leading-[58px] ">
               Simplify your sales monitoring
             </h1>
-            <Image src={Feature3} alt="feature 3 " className="pt-6 sm:hidden" />
+            <Image src={Feature3} alt="feature 3 " className="pt-6  w-full rounded-lg sm:hidden" />
             <p className="py-6 lg:text-[18px]  text-black">
               Stay on top of things and revamp your work progress with our game
               changing feature . Get a bird's eye view from our customizable

@@ -18,6 +18,7 @@ const Faq = () => {
       question: "Ut enim ad minima veniam, quis nostrum exercitationem ullam?",
       answer:
         "Land new users to the website by solving problems and supporting return visits with regular additions and valuable expertise sharing.",
+        
     },
     {
       question: "Ut enim ad minima veniam, quis nostrum exercitationem ullam?",
@@ -31,7 +32,7 @@ const Faq = () => {
     },
   ];
   return (
-    <div className="flex px-5 lg:px-15  flex-col py-[48px] w-full lg:flex-row lg:gap-x-2">
+    <div className="flex lg:px-15  flex-col py-[48px] w-full lg:flex-row lg:gap-x-2">
       <div className="lg:w-1/3 lg:py-[32px] lg:pr-[56px]    ">
         <h3 className="text-pink-700 font-bold text-[14px]">
           Frequently asked Questions
