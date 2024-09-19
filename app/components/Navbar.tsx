@@ -3,6 +3,7 @@ import logo from "../../public/assets/Logo.svg";
 import Image from "next/image";
 import User from "../../public/assets/User.svg";
 import Menu from "../../public/assets/Menu.svg";
+import DropdownMenuDemo from "./Hamburger";
 const NavLinks = [
   { name: "Features" },
   { name: "Pricing" },
@@ -20,15 +21,16 @@ const Navbar = () => {
         ))}
       </div>
       </div>
-      <div className="flex gap-x-5 items-center font-medium text-[#36485C]">
+      <div className="flex gap-x-5 font-medium text-[#36485C]">
         <p className="hidden lg:block sm:block pr-[56px]">Open an account</p>
-        <div className="flex gap-x-2 ">
+        <div className="flex gap-x-2 items-center">
           <Image src={User} alt="user profile" />
           <span className="hidden lg:block sm:block font-medium text-[#36485C]">
             Sign in
           </span>
         </div>
-        <Image className="lg:hidden sm:hidden" src={Menu} alt="menu button" />{" "}
+        {/* <Image className="lg:hidden sm:hidden" src={Menu} alt="menu button" />{" "} */}
+        <div className="  items-center lg:hidden sm:hidden"><DropdownMenuDemo/> </div>
       </div>
     </nav>
   );
